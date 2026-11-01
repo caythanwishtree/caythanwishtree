@@ -19,3 +19,9 @@ label { display: flex; flex-direction: column; gap: 4px; }
 .row { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
 .err { color: #ff8a8a; }
 .center { text-align: center; margin-top: 40px; }
+/* 3D world interface */
+.world-hud { position: fixed; left: 18px; bottom: 16px; z-index: 2; pointer-events: none; color: #f3e9c8; text-shadow: 0 2px 8px #000; }
+.world-title { font-family: Georgia, serif; letter-spacing: .22em; font-size: 13px; color: #e8c872; margin-bottom: 5px; }
+.world-controls { font-size: 11px; line-height: 1.65; color: #d5d0bb; opacity: .82; }
+.tree-prompt, .tree-message { white-space: nowrap; padding: 7px 11px; border: 1px solid #d6b86c88; border-radius: 20px; background: #10182bdc; color: #ffe6a5; font: 12px system-ui, sans-serif; box-shadow: 0 0 18px #f2c66b44; }
+.tree-message { cursor: pointer; border-radius: 10px; }
