@@ -1,0 +1,21 @@
+body { margin: 0; background: #0b1020; color: #f3e9c8; font-family: system-ui, sans-serif; }
+.app { max-width: 900px; margin: 0 auto; padding: 12px; }
+header { display: flex; justify-content: space-between; align-items: center; }
+h1, h2 { font-family: Georgia, serif; color: #e8c872; margin: 8px 0; }
+button, select, input, textarea { font: inherit; border-radius: 8px; border: 1px solid #5a4a2a; background: #1b2140; color: #f3e9c8; padding: 8px 12px; }
+button { background: #6b4a1e; cursor: pointer; }
+nav { display: flex; gap: 8px; margin: 8px 0; }
+nav .on { background: #a47a2c; }
+.wish-btn { width: 100%; font-size: 18px; padding: 12px; margin: 8px 0; }
+.lists { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+@media (max-width: 600px) { .lists { grid-template-columns: 1fr; } }
+.scroll { height: 360px; overflow-y: auto; }
+.card { background: #141a33; border: 1px solid #3a3358; border-radius: 10px; padding: 10px; margin-bottom: 8px; }
+.card p { margin: 6px 0; }
+small, .muted { color: #a9a08a; }
+.modal { position: fixed; inset: 0; background: #000b; display: flex; align-items: center; justify-content: center; padding: 12px; }
+.modal form { width: 100%; max-width: 420px; display: flex; flex-direction: column; gap: 8px; }
+label { display: flex; flex-direction: column; gap: 4px; }
+.row { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
+.err { color: #ff8a8a; }
+.center { text-align: center; margin-top: 40px; }
